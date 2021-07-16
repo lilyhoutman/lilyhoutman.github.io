@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widthm initial-scale=1"/>
+	<meta name="keywords" content="maps,cartography"/>
+	<title>Lily Houtman</title>
+	<link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-default">
+	<div class="container">
+		<div class="navbar">
+			<button type="button" class="navbar-toggler" 
+			data-toggle="collapse" data-target="#navbar-header" 
+			aria-expanded="false" aria-controls="navbar-header"> 
+				<span class="sr-only">Toggle navigation</span>
+				<svg width="1em" height="1em" viewBox="0 0 16 16"
+				 class="bi bi-list" xmlns="https://www.w3.org/2000/svg">
+				  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+				  <span class="menu"> Menu</span>
+				</button>
+				<a class="navbar-brand" href="../index.html">Lily Houtman</a>
+			</div>
+			<div id="navbar-header" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="../index.html#Maps">Maps</a></li>
+					<li><a href="../index.html#Graphics">Graphics</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../resume.html">Resume</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<div class ="container">
+	<div class="row">
+			<div class="col-md-12">
+				<h3>Development Work for the USGS Web Mapping and Informatics Team (WIM)</h3>
+				<p>Much of my work for the USGS is in development and not yet deployed during the summer of 2021. I am sharing limited screenshots of this work as examples of my skills in web development.
+<br>
+				<p>The <em>Coastal Barrier Resource System Mapper</em> is a tool that was almost complete when I began working on it. However, because environmental issues are often relevant at the Congressional District level, I added a Congressional Districts layer using JavaScript, ArcGIS API for JS, and AGOL.</p>
+				<img class="card-img-top"
+				src="../assets/cbrs2.PNG">
+				<p>I edited the modal to dynamically update as users click on the map, or to let them know if the area they clicked is outside of any congressional district.</p>
+				<img class="card-img-top"
+				src="../assets/cbrs4.PNG">
+				<p>Most importantly, I styled the layer to be colorblind friendly in comparsion to the other layers already on the map, and to remain visible with a variety of basemaps.</p>
+				<img class="card-img-top"
+				src="../assets/cbrs3.PNG">
+				<br>
+				<p>I am also a member of a science communication project on the invasive species <em>Phragmites</em>. I converted raster imagery to vector polygons in ArcGIS Pro to add to an interactive water level map using AGOL.</p>
+				<img class="card-img-top"
+				src="../assets/phragmites3.PNG">
+				<p>I am currently working on developing a geonarrative using ESRI StoryMaps, which includes images and the interactive water level map.</p>
+				<img class="card-img-top"
+				src="../assets/phragmites5.PNG">
+				<br>
+				<p>Not all of my work is in cartography. I am restructing a <em>Water Quality Portal</em> form that allows users to access water quality data. In this project, I am using HTML, CSS, SCSS, and JavaScript. I also converted the text-heavy pages of the portal from HTML to Markdown, allowing non-developer staff members to edit the content easier.</p>
+				<img class="card-img-top"
+				src="../assets/wqp1.png">
+				<p>I implemented tooltips in the form, revising the formerly text-heavy tooltips. I visually accented the most important text to draw the readers' attention, providing them with the most assistance.</p>
+				<img class="card-img-top"
+				src="../assets/wqp5.png">
+				<p>I also conducted user tests to improve the UI/UX design of the form, which is now in the final stages of development.</p>
+				<img class="card-img-top"
+				src="../assets/wqp2.png">
+				<br>
+				<p>The WIM team is always looking to innovate, so I worked with my mentor to setup a template project using the frontend framework Vue. I taught myself how to integrate Vue with Leaflet and setup a template for my colleagues to use.</p>
+				<img class="card-img-top"
+				src="../assets/thresholds2.PNG">
+				<p>I added basic data to the map using custom icons from the WIM team. This completed my setup for this project, which has now been passed to another intern.</p>
+				<img class="card-img-top"
+				src="../assets/thresholds1.PNG">
+			</div>
+		</div>
+	</div>
+	<footer>
+            <div class="text-center">
+                <a href="https://twitter.com/lilyhoutman" target="_blank"><i class="fab fa-twitter fa-2x"></i><span class='sr-only'>Twitter</span></a>
+                <a href="https://www.linkedin.com/in/lily-houtman-5307b01b8" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i><span class='sr-only'>Linkedin</span></a>
+                <a href="https://github.com/lilyhoutman" target="_blank"> <i class="fab fa-github fa-2x"></i><span class='sr-only'>GitHub</span></a>
+                <p><i class="fas fa-copyright"></i></i><span class='sr-only'></span> Lily Houtman, 2021</p>
+            </div>
+        </footer>
+</body>
+</html>
