@@ -1,11 +1,11 @@
-//declare map var in global scope
+//declare map var in global scope 
 var map;
 //declare minValue var in global scope
 var dataStats = {};
 //function to instantiate the leaflet map
 function createMap(){
     //create the map
-    map = L.map('mapid', {
+    map = L.map('mapid-les', {
         center: [38,-95],
         zoom: 4,
         //constrain zoom to United States
